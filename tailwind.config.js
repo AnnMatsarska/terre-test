@@ -15,7 +15,15 @@ module.exports = {
         },
       },
       cursor: {
-        custom: 'url("/cursor.png"), auto', // Example custom cursor
+        custom: 'url("/cursor.png"), auto',
+      },
+      screens: {
+        mob: '360px',
+        xs: '480px',
+        '2xl': '1600px',
+      },
+      backgroundImage: {
+        hero: "url('/hero-bg.jpg')",
       },
     },
   },
