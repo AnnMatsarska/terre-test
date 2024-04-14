@@ -14,7 +14,6 @@ const NavBar = () => {
   return (
     <div className="text-white">
       <nav>
-        {/* Burger Menu Icon */}
         <div className="block md:hidden">
           {isMenuOpen ? (
             <RxCross2 className="w-[30px] h-[30px]" onClick={toggleMenu} />

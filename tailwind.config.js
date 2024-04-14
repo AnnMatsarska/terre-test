@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        arsenal: ['Arsenal', 'sans-serif'],
-        serif: ['Lora', 'serif'],
+        arsenal: ['Arsenal', 'sans'],
+        sans: ['Lora', 'sans'],
         montez: ['Montez', 'cursive'],
       },
       colors: {
