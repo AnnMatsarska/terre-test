@@ -30,16 +30,20 @@ img {
 }
 
 .input-field {
-  padding: 8px;
-  margin: 8px;
-  width: 300px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(221, 221, 221, 0.5);
+
+  padding: 12px 8px;
+  margin-bottom: 8px;
+  width: 600px;
+  max-width: 100%;
+
+  color: white;
+
 }
 
-.btn-submit {
-  padding: 10px;
-  margin: 20px;
-  background-color: #333;
+.input-field::placeholder {
   color: white;
-  border: none;
-  cursor: pointer;
+  opacity: 1;
 }

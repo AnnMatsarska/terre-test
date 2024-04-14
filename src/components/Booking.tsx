@@ -4,6 +4,10 @@ import React from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import Image from 'next/image';
 
 interface IData {
   name: string;
@@ -31,11 +35,17 @@ const Booking = () => {
 
   const onSubmit: SubmitHandler<IData> = (data) => {
     console.log(data);
+    toast.success('Form submitted successfully!');
     reset();
   };
 
   return (
     <section className="bg-booking bg-cover h-[430px] md:h-[515px] 2xl:h-[610px] pt-[60px] md:pt-[70px] 2xl:pt-[102px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px]">
+      <ToastContainer
+        position="top-center"
+        autoClose={2500}
+        hideProgressBar={true}
+      />
       <p className="text-white font-montez font-normal text-center text-[17px] md:text-[20px] 2xl:text-[22px] w-[100px] mx-auto">
         book a table
       </p>
@@ -52,7 +62,11 @@ const Booking = () => {
           placeholder="your name"
           className="input-field"
         />
-        {errors.name && <span className="text-red-500">Name is required</span>}
+        {errors.name && (
+          <span className="text-red-500 text-[14px] md:text-[20px]">
+            Name is required
+          </span>
+        )}
 
         <input
           type="text"
@@ -61,21 +75,39 @@ const Booking = () => {
           className="input-field"
         />
         {errors.number && (
-          <span className="text-red-500">
+          <span className="text-red-500 text-[14px] md:text-[20px]">
             Number is required and must be 10 characters long
           </span>
         )}
 
-        <input
-          type="date"
-          {...register('date')}
-          placeholder="date"
-          className="input-field"
-        />
-        {errors.date && <span className="text-red-500">Date is required</span>}
+        <div className="relative w-[600px] max-w-[100%] ">
+          <input
+            type="date"
+            {...register('date')}
+            className="input-field custom-date-input"
+            style={{ color: 'white' }} // Change placeholder text color
+          />
+          <span className="absolute top-0 right-[6px] bottom-0 flex items-center pointer-events-none hover:cursor-custom">
+            <Image
+              src="/calendar.svg"
+              alt="Calendar"
+              width={20}
+              height={20}
+              className="h-5 w-5"
+            />
+          </span>
+        </div>
+        {errors.date && (
+          <span className="text-red-500 text-[14px] md:text-[20px]">
+            Date is required
+          </span>
+        )}
 
-        <button type="submit" className="btn-submit">
-          Submit
+        <button
+          type="submit"
+          className="text-arsenal font-bold text-[14px] md:text-[20px] text-white bg-secondary-green w-[600px] max-w-[100%] h-[50px] hover:cursor-custom mt-2"
+        >
+          submit
         </button>
       </form>
     </section>
