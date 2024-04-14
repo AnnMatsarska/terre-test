@@ -47,3 +47,24 @@ img {
   color: white;
   opacity: 1;
 }
+
+.hover-rect {
+  transition: fill 0.3s ease;
+  /* Smooth transition for color change */
+}
+
+.hover-path {
+  transition: fill 0.3s ease;
+  /* Smooth transition for color change */
+}
+
+.hover-group:hover .hover-rect {
+  fill: rgb(0, 133, 122);
+  /* Green color for rect on hover */
+}
+
+.hover-group:hover .hover-path {
+  fill: white;
+  stroke: white;
+  /* Green color for path on hover */
+}

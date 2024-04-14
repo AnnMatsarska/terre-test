@@ -2,6 +2,7 @@
 
 import About from '@/components/About';
 import Booking from '@/components/Booking';
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import History from '@/components/History';
 import Schedule from '@/components/Schedule';
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Schedule />
       <Booking />
+      <Footer />
     </>
   );
 }
