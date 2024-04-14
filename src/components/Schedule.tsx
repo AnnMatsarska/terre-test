@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Schedule = () => {
   return (
-    <section className="w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pt-[60px] md:pt-[100px] 2xl:pt-[90px] md:pb-[70px] 2xl:pb-[74px]">
+    <section className="bg-schedulemob bg-cover 2xl:bg-schedule w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pt-[60px] md:pt-[100px] 2xl:pt-[90px] md:pb-[70px] 2xl:pb-[74px]">
       <div className="2xl:flex gap-[71px] mb-[60px] md:mb-[100px] 2xl:mb-[0px]">
         <div className="2xl:order-2 2xl:mt-[50px]">
           <p className="lowercase font-montez font-normal text-secondary-green text-[17px] md:text-[20px] 2xl:text-[22px]">
@@ -76,7 +76,7 @@ const Schedule = () => {
           alt="meal"
           width={360}
           height={240}
-          className="w-[360px] h-[240px]  md:w-[728px] md:h-[400px] 2xl:w-[650px] md:h-[500px] "
+          className="w-[360px] max-w-[100%] h-[240px]  md:w-[728px]  md:h-[400px] 2xl:w-[650px] md:h-[500px] "
         />
       </div>
     </section>

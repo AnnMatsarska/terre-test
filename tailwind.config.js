@@ -27,6 +27,8 @@ module.exports = {
         historymob: "url('/mob-bg.png')",
         historytab: "url('/tab-bg.png')",
         about: "url('/ab-1.jpg')",
+        schedule: "url('/schedule-bg.png')",
+        schedulemob: "url('/schedule-mob.png')",
         booking: "url('/booking-bg.jpg')",
       },
     },

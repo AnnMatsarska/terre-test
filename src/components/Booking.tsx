@@ -85,7 +85,7 @@ const Booking = () => {
             type="date"
             {...register('date')}
             className="input-field custom-date-input"
-            style={{ color: 'white' }} // Change placeholder text color
+            style={{ color: 'white' }}
           />
           <span className="absolute top-0 right-[6px] bottom-0 flex items-center pointer-events-none hover:cursor-custom">
             <Image
