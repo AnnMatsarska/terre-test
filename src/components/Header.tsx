@@ -3,21 +3,20 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <div className="w-full flex justify-center">
-      <header className="fixed top-0 z-10 h-[90px] border-b border-white border-opacity-40">
-        <div className="w-full h-full w-[340px] md:w-[728px] xl:w-[1360px] mx-auto flex justify-between items-center">
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={147}
-            height={38}
-            priority={true}
-            className="w-[147px] h-[38px]"
-          />
-          <Navbar />
-        </div>
-      </header>
-    </div>
+    <header className="fixed w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pt-[26px]  top-0 z-10 h-[90px] flex flex-col  justify-between ">
+      <div className="flex justify-between items-center">
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={147}
+          height={38}
+          priority={true}
+          className="w-[120px] h-7 md:w-[130px] md:h-8 2xl:w-[147px] 2xl:h-9"
+        />
+        <Navbar />
+      </div>
+      <div className="w-full mt-6 border-b border-white border-opacity-40"></div>
+    </header>
   );
 };
 
