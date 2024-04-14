@@ -8,7 +8,7 @@ const About = () => {
         <p className="lowercase font-sans font-medium text-[20px] md:text-[30px] 2xl:text-[50px] text-white">
           Text abouT photo#1
         </p>
-        <div className="flex gap-[10px] items-center">
+        <div className="flex gap-[10px] items-center flex-wrap">
           <Image
             src="/ab-1.jpg"
             alt="inst"
