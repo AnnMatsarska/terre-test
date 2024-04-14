@@ -24,6 +24,9 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/hero-bg.jpg')",
+        historymob: "url('/mob-bg.png')",
+        historytab: "url('/tab-bg.png')",
+        about: "url('/ab-1.jpg')",
       },
     },
   },

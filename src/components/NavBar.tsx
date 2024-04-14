@@ -1,11 +1,25 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { RxHamburgerMenu, RxCross2 } from 'react-icons/rx';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleBodyScroll = () => {
+    const body = document.querySelector('body');
+    if (body) {
+      body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
+    }
+  };
+
+  useEffect(() => {
+    handleBodyScroll();
+    return () => {
+      handleBodyScroll(); // Reset scroll behavior when component unmounts
+    };
+  }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -19,10 +33,10 @@ const NavBar = () => {
             <RxCross2 className="w-[30px] h-[30px]" onClick={toggleMenu} />
           ) : (
             <button
-              className="w-[40px] h-[40px] box-border border border-white bg-white flex justify-center items-center"
+              className="w-[40px] h-[40px] box-border border border-white bg-white flex justify-center items-center "
               onClick={toggleMenu}
             >
-              <RxHamburgerMenu className="text-black w-[24px] h-[18px]" />
+              <RxHamburgerMenu className="text-black w-[24px] h-[18px] " />
             </button>
           )}
         </div>

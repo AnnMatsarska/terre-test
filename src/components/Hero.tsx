@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-hero bg-cover h-[750px] pt-[120px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px]">
+    <section className="bg-hero bg-cover h-[500px] md:h-[535px] 2xl:h-[750px] pt-[120px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px]">
       <p className="font-arsenal font-normal text-[14px] md:text-[17px] 2xl:text-[20px] text-white text-right relative">
         <span className="border-r border-white border-opacity-40 mr-[19px]"></span>
         125 Water street st. john`s, nl 709 383 2136
