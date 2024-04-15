@@ -7,7 +7,7 @@ const Footer = () => {
   };
   return (
     <section className="bg-black pt-[60px] pt-[54px] md:pt-[70px] 2xl:pt-[80px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pb-[65px]">
-      <div className="2xl:flex gap-[210px]">
+      <div className="2xl:flex gap-[225px]">
         <Image
           src="/logo.png"
           alt="Logo"
@@ -17,7 +17,7 @@ const Footer = () => {
           className="w-[130px] h-[34px] md:w-[240px] md:h-[62px] block  mx-auto mb-[25px] md:mb-[40px]"
         />
         <div className="flex flex-wrap gap-[30px] justify-center md:justify-between ">
-          <div className="w-[144px] 2xl:w-[206px] mb-8">
+          <div className="w-[144px] 2xl:w-[200px] mb-8">
             <p className="uppercase font-arsenal font-bold text-[17px] md:text-[22px] text-white mb-[10px] md:mb-[20px]">
               sitemap
             </p>
@@ -28,7 +28,7 @@ const Footer = () => {
               Book now
             </p>
           </div>
-          <div className="w-[144px] 2xl:w-[206px] mb-8">
+          <div className="w-[144px] 2xl:w-[200px] mb-8">
             <p className="uppercase font-arsenal font-bold text-[17px] md:text-[22px] text-white mb-[10px] md:mb-[20px]">
               Address
             </p>
@@ -36,7 +36,7 @@ const Footer = () => {
               125 water streetst. john’s, nl a1c 5x4
             </p>
           </div>
-          <div className="w-[144px] 2xl:w-[206px] mb-8">
+          <div className="w-[144px] 2xl:w-[200px] mb-8">
             <p className="uppercase font-arsenal font-bold text-[17px] md:text-[22px] text-white mb-[10px] md:mb-[20px]">
               Contacts
             </p>
@@ -53,7 +53,7 @@ const Footer = () => {
               info@terrerestaurant.com
             </a>
           </div>
-          <div className="w-[144px] 2xl:w-[206px] mb-8">
+          <div className="w-[144px] 2xl:w-[200px] mb-8">
             <p className="uppercase font-arsenal font-bold text-[17px] md:text-[22px] text-white mb-[10px] md:mb-[20px] hover:cursor-custom hover:underline">
               Other
             </p>
