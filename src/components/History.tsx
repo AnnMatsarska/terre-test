@@ -40,7 +40,7 @@ const History = () => {
           </button>
         </div>
       </section>
-      <div className="bg-historymob bg-cover  md:bg-center md:bg-historytab pb-[28px] md:pb-[0px] relative">
+      <div className="bg-historymob bg-cover md:bg-center md:bg-historytab 2xl:bg-history pb-[28px] md:pb-[0px] relative">
         <Image
           src="/his-img-2.png"
           alt="inst"
