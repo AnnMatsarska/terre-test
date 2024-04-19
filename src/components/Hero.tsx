@@ -12,7 +12,7 @@ const Hero = () => {
       </h1>
       <div className="flex justify-between ">
         <div className="flex font-arsenal text-white gap-[34px] items-center">
-          <div className="uppercase text-black text-[14px] md:text-[17px] 2xl:text-[22px] md:leading-6 font-normal bg-white w-[70px] h-[70px] md:w-[80px] md:h-[80px] 2xl:w-[120px] 2xl:h-[120px] text-center rounded-full pt-[16px] px-[10px] md:pt-[20px] md:px-[6px] 2xl:pt-[38px] 2xl:px-[22px]  md:hover:w-[133px] md:hover:h-[133px] 2xl:hover:h-[200px] 2xl:hover:w-[200px] hover:cursor-custom hover:bg-transparent hover: border hover:border-white hover:text-white  md:hover:pt-[45px] md:hover:px-[35px] 2xl:hover:pt-[77px] 2xl:hover:px-[63px] transition-all duration-300">
+          <div className="uppercase text-black text-[14px] md:text-[17px] 2xl:text-[22px] md:leading-6 font-normal bg-white w-[70px] h-[70px] md:w-[80px] md:h-[80px] 2xl:w-[120px] 2xl:h-[120px] text-center rounded-full pt-[16px] px-[10px] md:pt-[20px] 2xl:pt-[38px] 2xl:px-[22px]  md:hover:w-[133px] md:hover:h-[133px] 2xl:hover:h-[200px] 2xl:hover:w-[200px] hover:cursor-custom hover:bg-transparent hover: border hover:border-white hover:text-white  md:hover:pt-[45px] md:hover:px-[35px] 2xl:hover:pt-[77px] 2xl:hover:px-[63px] transition-all duration-300">
             About us
           </div>
           <p className="font-normal text-[14px] md:text-[17px] 2xl:text-[22px] w-full max-w-[618px]">

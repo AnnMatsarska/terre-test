@@ -19,6 +19,8 @@ module.exports = {
       },
       screens: {
         mob: { max: '375px' },
+        tab: { min: '950px', max: '1299px' },
+        desk: { min: '1300px', max: '1599px' },
         '2xl': '1600px',
       },
       backgroundImage: {
