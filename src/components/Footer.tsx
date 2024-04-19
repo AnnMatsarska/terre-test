@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   const hoverStyle = {
-    fill: '#FF5733', // Change fill color on hover
+    fill: '#FF5733',
   };
   return (
     <section className="bg-black pt-[60px] pt-[54px] md:pt-[70px] 2xl:pt-[80px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pb-[65px]">

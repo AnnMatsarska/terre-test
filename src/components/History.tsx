@@ -4,7 +4,7 @@ import Image from 'next/image';
 const History = () => {
   return (
     <>
-      <section className="pt-[37px] md:t-[67px] 2xl:pt-[100px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] relative">
+      <section className="pt-[37px] 2xl:bg-history 2xl:bg-cover 2xl:bg-left md:t-[67px] 2xl:pt-[100px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] relative">
         <div className="2xl:flex items-center justify-between">
           <p className="font-montez text-secondary-green font-normal text-[17px] md:text-[20px] 2xl:text-[22px] mb-[20px] 2xl:order-2">
             We could not be prouder to be.
@@ -27,7 +27,7 @@ const History = () => {
             landscapes, Matthew and his incredible team have created a welcoming
             comfortable space that reflects and respects it’s environment.
           </p>
-          <p className="font-arsenal font-normal text-[14px] md:text-[17px] 2xl:text-[20px] mb-[15px] md:w-[403px]2xl:w-0">
+          <p className="font-arsenal font-normal text-[14px] md:text-[17px] 2xl:text-[20px] mb-[15px] md:w-[403px] 2xl:w-full">
             In 2021, Terre was selected as one of ‘Canada’s Best New
             Restaurants’ by enRoute Magazine’s expert food panel. We could not
             be prouder to be part of this prestigious list.
@@ -40,13 +40,13 @@ const History = () => {
           </button>
         </div>
       </section>
-      <div className="bg-historymob bg-cover md:bg-center md:bg-historytab 2xl:bg-history pb-[28px] md:pb-[0px] 2xl:h-[222px]">
+      <div className="bg-historymob bg-cover md:bg-center md:bg-historytab 2xl:bg-none pb-[28px] md:pb-[0px] 2xl:h-[222px]">
         <Image
           src="/his-img-2.png"
           alt="inst"
           width={360}
           height={400}
-          className="hidden md:block 2xl:absolute 2xl:left-[590px] 2xl:top-[1250px] 2xl:z-10"
+          className="hidden md:block 2xl:absolute 2xl:left-[590px] 2xl:top-[1270px] 2xl:z-10"
         />
         <Image
           src="/his-img.png"
