@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Schedule = () => {
   return (
-    <section className="bg-schedulemob bg-cover md:bg-scheduletab 2xl:bg-schedule w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pt-[60px] md:pt-[100px] 2xl:pt-[90px] md:pb-[70px] 2xl:pb-[74px]">
+    <section className="bg-schedulemob bg-cover md:bg-scheduletab 2xl:bg-schedule w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] pt-[60px] md:pt-[100px] 2xl:pt-[90px] md:pb-[70px] 2xl:pb-[74px] flex flex-col justify-center items-center 2xl:block">
       <div className="2xl:flex gap-[71px] mb-[60px] md:mb-[100px] 2xl:mb-[0px]">
         <div className="2xl:order-2 2xl:mt-[50px]">
           <p className="lowercase font-montez font-normal text-secondary-green text-[17px] md:text-[20px] 2xl:text-[22px]">
