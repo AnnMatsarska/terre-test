@@ -46,10 +46,10 @@ const Booking = () => {
         autoClose={2500}
         hideProgressBar={true}
       />
-      <p className="text-white font-montez font-normal text-center text-[17px] md:text-[20px] 2xl:text-[22px] w-[100px] mx-auto">
+      <p className="text-white font-montez font-normal text-center text-[17px] md:text-[20px] 2xl:text-[22px] w-full mx-auto">
         book a table
       </p>
-      <p className="text-white font-sans font-medium text-center text-[40px] md:text-[50px] 2xl:text-[60px] w-[245px] mx-auto">
+      <p className="text-white font-sans font-medium text-center text-[40px] md:text-[50px] 2xl:text-[60px]  w-full mx-auto">
         book a table
       </p>
       <form
