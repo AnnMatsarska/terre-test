@@ -18,8 +18,7 @@ module.exports = {
         custom: 'url("/cursor.png"), auto',
       },
       screens: {
-        mob: '360px',
-        xs: '480px',
+        mob: { max: '375px' },
         '2xl': '1600px',
       },
       backgroundImage: {

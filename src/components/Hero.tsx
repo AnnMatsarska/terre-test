@@ -7,12 +7,12 @@ const Hero = () => {
         <span className="border-r border-white border-opacity-40 mr-[19px]"></span>
         125 Water street st. john`s, nl 709 383 2136
       </p>
-      <h1 className="text-white font-sans lowercase font-medium mt-[77px] md:mt-[100px] 2xl:mt-[134px] text-[50px] md:text-[70px] 2xl:text-[120px]">
+      <h1 className="text-white font-sans lowercase font-medium mt-[77px] md:mt-[100px] 2xl:mt-[134px] text-[50px] md:text-[70px] 2xl:text-[120px] mob:w-[300px] leading-none mb-5 md:mb-10 2xl:mb-11">
         Terre restaurant
       </h1>
       <div className="flex justify-between ">
         <div className="flex font-arsenal text-white gap-[34px] items-center">
-          <div className="uppercase text-black text-[14px] md:text-[17px] 2xl:text-[22px] leading-6 font-normal bg-white w-[70px] h-[70px] md:w-[80px] md:h-[80px] 2xl:w-[120px] 2xl:h-[120px] text-center rounded-full pt-[16px] px-[10px] md:pt-[20px] md:px-[6px] 2xl:pt-[38px] 2xl:px-[22px] hover:w-[200px] hover:h-[200px] hover:cursor-custom hover:bg-transparent hover: border hover:border-white hover:text-white hover:pt-[77px] hover:px-[63px] transition-all duration-300">
+          <div className="uppercase text-black text-[14px] md:text-[17px] 2xl:text-[22px] md:leading-6 font-normal bg-white w-[70px] h-[70px] md:w-[80px] md:h-[80px] 2xl:w-[120px] 2xl:h-[120px] text-center rounded-full pt-[16px] px-[10px] md:pt-[20px] md:px-[6px] 2xl:pt-[38px] 2xl:px-[22px] hover:w-[200px] hover:h-[200px] hover:cursor-custom hover:bg-transparent hover: border hover:border-white hover:text-white hover:pt-[77px] hover:px-[63px] transition-all duration-300">
             About us
           </div>
           <p className="font-normal text-[14px] md:text-[17px] 2xl:text-[22px] w-full max-w-[618px]">
