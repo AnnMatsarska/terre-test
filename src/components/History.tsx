@@ -4,7 +4,7 @@ import Image from 'next/image';
 const History = () => {
   return (
     <>
-      <section className="pt-[37px] 2xl:bg-history 2xl:bg-cover 2xl:bg-left md:t-[67px] 2xl:pt-[100px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] relative">
+      <section className="pt-[37px] bg-historymob bg-cover bg-bottom md:bg-center md:bg-historytab 2xl:bg-history 2xl:bg-cover 2xl:bg-left md:t-[67px] 2xl:pt-[100px] w-full mx-auto px-[10px] md:px-[20px] 2xl:px-[120px] 2xl:pb-[330px] relative">
         <div className="2xl:flex items-center justify-between">
           <p className="font-montez text-secondary-green font-normal text-[17px] md:text-[20px] 2xl:text-[22px] mb-[20px] 2xl:order-2">
             We could not be prouder to be.
@@ -39,23 +39,21 @@ const History = () => {
             Read the full enRoute story
           </button>
         </div>
-      </section>
-      <div className="bg-historymob bg-cover md:bg-center md:bg-historytab 2xl:bg-none pb-[28px] md:pb-[0px] 2xl:h-[222px]">
         <Image
           src="/his-img-2.png"
           alt="inst"
           width={360}
           height={400}
-          className="hidden md:block 2xl:absolute 2xl:left-[590px] 2xl:top-[1270px] 2xl:z-10"
+          className="hidden md:block 2xl:absolute 2xl:left-[550px] 2xl:top-[550px] 2xl:z-10"
         />
         <Image
           src="/his-img.png"
           alt="inst"
           width={360}
           height={400}
-          className="md:absolute z-0 right-12 md:top-[940px] md:left-[380px] tab:left-[600px] desk:left-[900px] desk:top-[900px] 2xl:left-[150px] 2xl:top-[1000px] 2xl:w-[500px] 2xl:h-[550px]"
+          className="md:absolute z-0 right-12 md:top-[400px] md:left-[380px] tab:left-[600px] desk:left-[900px] 2xl:left-[100px] 2xl:top-[250px] 2xl:w-[500px] 2xl:h-[550px]"
         />
-      </div>
+      </section>
     </>
   );
 };
