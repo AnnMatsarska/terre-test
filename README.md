@@ -16,7 +16,7 @@ The project is deployed on Vercel for easy hosting and access. You can view the 
 
 ## Getting Started
 
-Clone the repository.
-Install dependencies using npm install.
-Run the development server with npm run dev.
-Open your browser and navigate to http://localhost:3000 to view the landing page.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the development server with `npm run dev`.
+4. Open your browser and navigate to http://localhost:3000 to view the landing page.
